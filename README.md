@@ -26,7 +26,7 @@ go get github.com/davidbanham/abook_adder
 
 (Linux and OSX only)
 ```
-sudo curl --fail https://raw.githubusercontent.com/davidbanham/mutt_to_abook/master/build/mutt_to_abook-`echo $OSTYPE` -o /usr/bin/mutt_to_abook && sudo chmod +x /usr/bin/mutt_to_abook
+sudo curl --fail https://raw.githubusercontent.com/davidbanham/mutt_to_abook/master/build/mutt_to_abook-`uname` -o /usr/bin/mutt_to_abook && sudo chmod +x /usr/bin/mutt_to_abook
 ```
 
 #### DIY
@@ -34,5 +34,5 @@ sudo curl --fail https://raw.githubusercontent.com/davidbanham/mutt_to_abook/mas
 ```
 git clone git@github.com:davidbanham/mutt_to_abook.git
 cd mutt_to_abook
-make && sudo make install
+make all && sudo make install
 ```
