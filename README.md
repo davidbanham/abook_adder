@@ -14,4 +14,20 @@ Simples!
 
 ## Installation
 
+Choose your own adventure! Either:
+
+#### Easy
+
+```
+sudo curl https://raw.githubusercontent.com/davidbanham/abook_adder/master/build/abook_adder > /usr/bin/abook_adder && sudo chmod +x /usr/bin/abook_adder
+```
+
+or:
+
+#### DIY
+
+```
+git clone git@github.com:davidbanham/abook_adder.git
+cd abook_adder
 make && sudo make install
+```
