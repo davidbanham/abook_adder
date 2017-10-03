@@ -1,5 +1,5 @@
-build/abook_adder:
-	go build -o build/abook_adder
+build/mutt_to_abook:
+	go build -o build/mutt_to_abook
 
 install:
-	cp abook_adder /usr/bin
+	cp mutt_to_abook /usr/bin
